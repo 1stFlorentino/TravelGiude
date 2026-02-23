@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide - Professional Edition</title>
+    <link rel="stylesheet" href="./style/indexstyle.css">
+</head>
+<body>
+
+    <div class="slideshow-container">
+        <div class="slide fade"><img src="./pic/trang_an1.jpg"></div>
+        <div class="slide fade"><img src="./pic/20230419153818-125-2.jpg"></div>
+        <div class="slide fade"><img src="./pic/hinh-nen-viet-nam-4k43.jpg"></div>
+    </div>
+
+    <div id="container">
+        <header id="Banner">
+            <h1>CẨM NANG DU LỊCH</h1>
+        </header>
+
+        <main id="MainContent">
+            <p><strong>Chọn Tỉnh:</strong></p>
+            <select id="provinceSelect">
+                <option value="">-- Chọn Tỉnh --</option>
+            </select>
+
+            <p><strong>Chọn địa điểm:</strong></p>
+            <select id="locationSelect" disabled>
+                <option value="">-- Chọn địa điểm --</option>
+            </select>
+
+            <button id="btnStart" class="btn-start">BẮT ĐẦU</button>
+        </main>
+    </div>
+
+    <script src="./code/code.js"></script>
+</body>
+</html>
