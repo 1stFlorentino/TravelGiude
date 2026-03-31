@@ -3,7 +3,7 @@ const travelDatabase = {
     "LongAn": {
         tenTinh: "Long An",
         locations: [
-            { name: "Di tích Ngã Ba Đức Hòa", status: true },
+            { name: "Di tích Ngã  Tư Đức Hòa", status: true },
             { name: "Cánh đồng bất tận", status: false },
             { name: "Di tích Nhà Trăm cột", status: false }
         ]
